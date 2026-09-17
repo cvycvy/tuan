@@ -1,0 +1,50 @@
+# Dependencies
+node_modules
+.pnpm-store/
+node-compile-cache/
+
+# Production
+dist/
+build/
+dist-*/
+release/
+
+# Misc
+.DS_Store
+.env
+# .env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+/logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Taro specific
+.taro/
+
+# OS X
+.DS_Store
+
+# Key
+key/
+.codegraph/
+.cozeproj/reduction
+.preview
+
+# Python cache
+__pycache__/
+*.pyc
